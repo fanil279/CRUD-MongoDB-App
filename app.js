@@ -32,4 +32,4 @@ app.use("/api/users", router);
 app.use(notFoundHandler);
 app.use(errorHandler);
 
-app.listen(port, () => console.log(`Application is running at http://localhost:${port}`));
+app.listen(port, () => console.log(`Application is running at https://crud-mongodb-app-production.up.railway.app/`));
